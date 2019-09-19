@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddebd8a1-4cef-44e2-8b82-5f149aa87183" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/todoapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapi/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproj/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoapi/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -57,6 +65,16 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -67,7 +85,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568871298124</updated>
-      <workItem from="1568871301366" duration="426000" />
+      <workItem from="1568871301366" duration="597000" />
+      <workItem from="1568872207071" duration="337000" />
+      <workItem from="1568872557285" duration="153000" />
     </task>
     <servers />
   </component>
@@ -79,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
