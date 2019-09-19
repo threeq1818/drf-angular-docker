@@ -1,7 +1,8 @@
 from django.db import models
+
 from datetime import date
 
-
+# Create the Task class to describe the model.
 class Task(models.Model):
     """Stores a task."""
     title = models.CharField(max_length=50)
@@ -9,6 +10,7 @@ class Task(models.Model):
 
     # Date the task was created.
     created_on = models.DateField(default=date.today)
+
     # Due date.
     due_date = models.DateField(default=date.today)
 

@@ -2,7 +2,11 @@ version: "3"
 
 services:
   db:
-    image: postgres
+    image: 'postgres'
+    ports:
+      - '5432'
+#    networks:
+#      some_network:
   dj:
     container_name: dj
     build: django
@@ -13,3 +17,9 @@ services:
       - "8001:8001"
     depends_on:
       - db
+    links:
+      - db:db
+#    networks:
+#      some_network:
+#  networks:
+#    some_network:
