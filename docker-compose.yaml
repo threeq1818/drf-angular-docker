@@ -1,6 +1,8 @@
 version: "3"
 
-services:     
+services:
+  db:
+    image: postgres
   dj:
     container_name: dj
     build: django
@@ -9,3 +11,5 @@ services:
       - ./django:/code
     ports:
       - "8001:8001"
+    depends_on:
+      - db
