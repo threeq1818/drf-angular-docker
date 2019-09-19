@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ddebd8a1-4cef-44e2-8b82-5f149aa87183" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapi/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapi/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapi/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproj/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +89,7 @@
       <workItem from="1568871301366" duration="597000" />
       <workItem from="1568872207071" duration="337000" />
       <workItem from="1568872557285" duration="1218000" />
-      <workItem from="1568889209863" duration="11073000" />
+      <workItem from="1568889209863" duration="11775000" />
     </task>
     <servers />
   </component>
