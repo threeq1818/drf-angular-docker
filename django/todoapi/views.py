@@ -8,30 +8,9 @@ from rest_framework.response import Response
 from rest_framework import status
 # Create your views here.
 
-class TaskList(APIView):
+class TaskList(generics.ListCreateAPIView):
     """
-    For GET requests.
-    View all tasks.
+    Lists and creates tasks.
     """
-    def get(self, request, format=None):
-        """
-        :param request:
-        :param format:
-        :return: a list of all tasks.
-        """
-        tasks = Task.objects.all()
-        serializer = TaskSerializer(tasks, many=True)
-        return Response(serializer.data)
-
-    def post(self, request, format=None):
-        """
-        Create a task.
-        :param request:
-        :param format:
-        :return:
-        """
-        serializer = TaskSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
