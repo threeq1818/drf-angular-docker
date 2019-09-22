@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddebd8a1-4cef-44e2-8b82-5f149aa87183" name="Default Changelist" comment="" />
+    <list default="true" id="ddebd8a1-4cef-44e2-8b82-5f149aa87183" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../angular/angular-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/angular-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +89,7 @@
       <workItem from="1568872557285" duration="1218000" />
       <workItem from="1568889209863" duration="13550000" />
       <workItem from="1568955689376" duration="2589000" />
+      <workItem from="1568975788127" duration="408000" />
     </task>
     <servers />
   </component>
