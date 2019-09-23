@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 
 import { ApiService } from '../api.service';
 import { Task } from '../task';
-import { FormGroup, FormBuilder } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-task-list',
@@ -23,6 +23,10 @@ export class TaskListComponent implements OnInit {
       title: '',
       content: ''
     });
+
+    // Set validators for fields.
+    this.task_form.controls["title"].setValidators([Validators.required]);
+    this.task_form.controls["content"].setValidators([Validators.required]);
   }
 
   public getTasks() {
