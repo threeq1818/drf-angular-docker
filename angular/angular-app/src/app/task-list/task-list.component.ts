@@ -44,4 +44,24 @@ export class TaskListComponent implements OnInit {
       )
   }
 
+  deleteTask(task_id: number) {
+    this.apiService.deleteTask(task_id)
+      .subscribe(
+        (response) => {
+          console.log(response);
+          this.getTasks();
+        }
+      )
+  }
+
+  updateTask(task) {
+    this.apiService.putTask(task)
+      .subscribe(
+        (response) => {
+          console.log(response);
+          this.getTasks();
+        }
+      )
+  }
+
 }
