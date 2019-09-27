@@ -20,7 +20,7 @@ export class AuthService {
     responseType: 'token',
     redirectUri: environment.auth.auth0RedirectUri,
     audience: environment.auth.audience,
-    scoep: 'openid profile'
+    scope: 'openid profile'
   });
 
   // Store authentication data
@@ -42,6 +42,7 @@ export class AuthService {
     this.auth0.parseHash((err, authResult) => {
       if (authResult && authResult.accessToken) {
         window.location.hash = '';
+        debugger
         this.getUserInfo(authResult);
       } else if (err) {
         console.log(`Error: ${err.error}`);
