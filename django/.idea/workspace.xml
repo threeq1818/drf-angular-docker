@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddebd8a1-4cef-44e2-8b82-5f149aa87183" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoapi/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoapi/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/angular-app/src/app/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/angular-app/src/app/auth/auth.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapi/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapi/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapi/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapi/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +131,7 @@
       <workItem from="1569475466019" duration="319000" />
       <workItem from="1569495749822" duration="362000" />
       <workItem from="1569563199733" duration="3434000" />
+      <workItem from="1569609997240" duration="2908000" />
     </task>
     <servers />
   </component>

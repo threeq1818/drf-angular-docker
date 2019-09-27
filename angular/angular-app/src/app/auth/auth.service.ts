@@ -42,7 +42,6 @@ export class AuthService {
     this.auth0.parseHash((err, authResult) => {
       if (authResult && authResult.accessToken) {
         window.location.hash = '';
-        debugger
         this.getUserInfo(authResult);
       } else if (err) {
         console.log(`Error: ${err.error}`);
