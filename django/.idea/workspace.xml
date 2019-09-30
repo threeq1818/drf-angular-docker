@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddebd8a1-4cef-44e2-8b82-5f149aa87183" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/todoapi/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoapi/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/angular-app/src/app/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/angular-app/src/app/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoproj/settings_dev.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoproj/settings_prod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapi/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapi/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapi/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapi/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/todoproj" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todoproj" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,7 +63,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/todoproj/settings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/todoproj/settings_dev.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +136,10 @@
       <workItem from="1569475466019" duration="319000" />
       <workItem from="1569495749822" duration="362000" />
       <workItem from="1569563199733" duration="3434000" />
-      <workItem from="1569609997240" duration="2908000" />
+      <workItem from="1569609997240" duration="3865000" />
+      <workItem from="1569619524935" duration="1927000" />
+      <workItem from="1569649158180" duration="500000" />
+      <workItem from="1569661541844" duration="453000" />
     </task>
     <servers />
   </component>
